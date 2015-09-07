@@ -41,4 +41,4 @@ Apitome.setup do |config|
   # individual pages on demand. This allows you to specify which one you want, as a single page may impact performance.
   config.single_page = true
 
-end
+end if defined? Apitome
